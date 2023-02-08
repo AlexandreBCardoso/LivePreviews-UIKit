@@ -40,8 +40,7 @@ import SwiftUI
 struct SimpleView_Preview: PreviewProvider {
     static var previews: some View {
         View_Representable {
-            let button = SimpleView()
-            return button
+            SimpleView()
         }.previewLayout(.sizeThatFits)
             .padding(10)
     }
